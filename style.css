@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.website {
+    width: 1203px;
+    border: 1px solid black;
+
+}
+
+/* this is navbar style */
+.navbar {
+    border: 1px solid rgb(235, 233, 231);
+    Width: 1200px;
+    border-width: 1px;
+    Height: 60px;
+}
+
+.navbar h1 {
+    margin-left: 90px;
+    margin-bottom: 27px;
+    font-size: 28px;
+}
+
+.navbar ul {
+
+    margin: 0px 82px;
+}
+
+.navbar ul li {
+    float: inline-start;
+    list-style: none;
+    padding: 9px;
+}
+
+/* this is  body style */
+
+.body h1 {
+
+    padding: 17px 299px;
+}
+
+.body h6 {
+    padding: 14px 408px;
+}
+
+.body img {
+    width: 1201px;
+    height: 550px;
+}
+
+.sectionA hr {
+    width: 640px;
+    height: 0px;
+    margin-left: 175px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#img1 {
+    width: 56px;
+    height: 56px;
+    margin-left: 170px;
+}
+
+.info h6 {
+    width: 229px;
+    margin-left: 5px;
+    padding: 0px 0px;
+}
+
+#h6date {
+    font-family: SF Pro Text;
+}
+
+.icons {
+    margin-left: 230px;
+
+}
+
+.icons img {
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    padding: 0px 0px;
+}
+
+
+/* About section is completed */
+
+.para {
+    font-family: New York Medium;
+    /* border: 1px solid; */
+    margin: 26px 184px;
+}
+
+.sectionA h1 {
+    margin-top: 50px;
+    padding-left: 175px;
+}
+
+.para2 {
+    margin: 20px 174px;
+    font-family: New York Medium;
+}
+
+/* section A is completed */
+
+#img3 {
+    width: 1000px;
+    height: 500px;
+    margin-left: 90px;
+}
+
+.sectionB h6 {
+    font-family: SF Pro text;
+}
+
+#para1 {
+    margin: 26px 184px;
+    font-family: New York Medium;
+}
+
+/* list */
+
+
+#listheading {
+    margin-top: 50px;
+    margin-left: 184px;
+    margin-right: 184px;
+    font-family: New York Medium;
+}
+
+.sectionB ul li {
+    margin-top: 10px;
+    margin-left: 184px;
+    margin-right: 184px;
+    font-family: New York Medium;
+}
+
+#para4 {
+    margin: 26px 184px;
+}
+
+#para5 {
+    margin: 26px 184px;
+}
+
+/* social */
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sharf p {
+    height: 20px;
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.sharf img {
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+}
+
+.sharf {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shart p {
+    height: 20px;
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 4px;
+    /* padding-left: px; */
+}
+
+.shart img {
+    width: 20px;
+    height: 19px;
+}
+
+.shart {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* social is completed */
+
+#Tags {
+    font-family: SF Pro Text;
+    margin: 25px 183px;
+    text-decoration: underline;
+}
+
+#line {
+    border: 0.1px solid;
+    border-style: dotted;
+    margin: 20px 180px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    margin: 25px 177px;
+}
+
+.info2 p {
+    margin-left: 15px;
+}
+
+.info2 img {
+    height: 70px;
+    width: 70px;
+}
+
+#line2 {
+    border: 1px solid black;
+    margin-top: 75px
+}
+
+
+/* sectionB  is completed */
+
+
+
+#heading1 {
+    margin: 0px 80px;
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.grids {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 116px;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.design img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.design p {
+    margin-left: 80px;
+
+}
+
+.exists {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.exists p {
+    margin-left: 80px;
+}
+
+.exists img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.work img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.work p {
+    margin-left: 80px;
+
+}
+
+.made {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.made img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.made p {
+    margin-left: 80px;
+
+}
+
+.better {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.better img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.better p {
+    margin-left: 80px;
+}
+
+.methods {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.methods img {
+    Width: 304px;
+    Height: 176px;
+    padding-left: 42px;
+}
+
+.methods p {
+    margin-left: 80px;
+}
+
+/*  grids is completed */
+
+
+.form {
+    border: 1px solid black;
+    border-top: 10px solid black;
+    height: 200px;
+    width: 570px;
+    margin-left: 340px;
+    margin-bottom: 15px;
+}
+
+.form h1 {
+    padding: 0;
+    margin-left: 50px;
+}
+
+.form p {
+    margin-left: 50px;
+}
+
+.sign {
+    display: flex;
+}
+
+.form input {
+    padding-right: 130px;
+    height: 37px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.form button {
+margin-top: 20px;
+    height: 37px;
+    color: white;
+    background-color: black;
+}
+
+/* form is completed */
+
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 1203px;
+    /* margin-top: 15px; */
+}
+.para6{
+    display: flex;
+}
+.para6 p{
+    padding: 0px 20px;
+}
+.footersection{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin: 20px 290px;
+}
+.footersection h1{
+    margin-left: 185px;
+}
+.footersection p{
+    margin-left: 120px;
+}
+.social2{
+    display: flex;
+}
